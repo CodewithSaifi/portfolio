@@ -1,3 +1,6 @@
+import hand from "../assets/hand.svg";
+import resume from "../assets/resume.svg";
+import myPic from "../assets/my-pic.png";
 const Hero = () => {
   return (
     <>
@@ -41,9 +44,9 @@ const Hero = () => {
               <h1 className="text-[6rem] font-semibold">Md Saifullah</h1>
               <img
                 className="translate-y-[-2px]"
-                src="./hand.svg"
+                src={hand}
                 width={"50px"}
-                alt=""
+                alt="."
               />
             </div>
             <p className="text-[2.2rem] my-[16px]">FrontEnd Developer</p>
@@ -51,12 +54,12 @@ const Hero = () => {
               "Code is like humor. When you have to explain it, it's bad."
             </p>
             <button className="bg-[#333333] hover:bg-[#9fbc49] transition duration-300 cursor-pointer text-[16px] font-semibold text-white py-[18px] px-[32px] rounded-[16px] flex gap-[8px]">
-              Resume <img src="./resume.svg" alt="" />
+              Resume <img src={resume} alt="" />
             </button>
           </div>
           <div
             style={{
-              backgroundImage: "url('./my-pic.png')",
+              backgroundImage: `url(${myPic})`,
               backgroundSize: "cover",
               backgroundPosition: "50%",
             }}
