@@ -6,7 +6,6 @@
 @layer base {
   html {
     font-size: 62.5%;
-    font-family: 'Nunito', sans-serif;
   }
 
   @media (max-width: 1024px) {
@@ -44,6 +43,10 @@
   animation: morph 8s ease-in-out infinite;
 }
 
+html {
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
@@ -51,4 +54,5 @@ body {
   box-sizing: border-box;
   background-color: #fafafa;
   color: #333333;
+  width: 100%;
 }
