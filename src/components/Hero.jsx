@@ -62,9 +62,11 @@ const Hero = () => {
               <p className="text-[#757575] text-[1.6rem] mb-[48px]">
                 "Code is like humor. When you have to explain it, it's bad."
               </p>
+              <a href="./Resume.pdf" target="_blank" rel="noopener noreferrer">
               <button className="bg-[#333333] hover:bg-[#9fbc49] transition duration-300 cursor-pointer text-[16px] font-semibold text-white py-[18px] px-[32px] rounded-[16px] flex gap-[8px]">
                 Resume <img src={resume} alt="" />
               </button>
+              </a>
             </div>
             <div
               style={{
