@@ -1,24 +1,18 @@
 [
   {
     "id": 1,
-    "title": "E-com WebSite for Shop Owner",
-    "img": "./shop.png",
-    "link": "https://shreebalajihosiery.com/"
-  },
-  {
-    "id": 2,
     "title": "Scentopia E-com Site",
     "img": "./scentopia.png",
     "link": "https://scentopia-two.vercel.app"
   },
   {
-    "id": 3,
+    "id": 2,
     "title": "Weather App",
     "img": "./weather-app.png",
     "link": "https://weather-app-page.surge.sh"
   },
   {
-    "id": 4,
+    "id": 3,
     "title": "LinkedIn Clone",
     "img": "./linkedin.jpg",
     "link": "https://linkedin-nine-blush.vercel.app"
