@@ -6,6 +6,12 @@
     "link": "https://scentopia-two.vercel.app"
   },
   {
+    "id": 4,
+    "title": "Sanitary Store Website",
+    "img": "./store.png",
+    "link": "https://polarstar09.github.io/polarstar/"
+  },
+  {
     "id": 2,
     "title": "Weather App",
     "img": "./weather-app.png",
